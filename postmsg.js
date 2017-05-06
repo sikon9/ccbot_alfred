@@ -16,10 +16,7 @@ function postmsg() {
 
   //channel idを取得
   //general
-  var channelId = "C02HPM857";
-
-　//sikon9_bot
-  //var channelId = "C0L1Q1AF6";
+  var channelId = "";
 
   var bot_line="";
 
