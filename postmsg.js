@@ -20,7 +20,6 @@ function postmsg() {
   //general
   var channelId = "";
 
-
   var bot_line="";
 
   if(num_yobi==trg_yobi){

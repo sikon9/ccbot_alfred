@@ -20,13 +20,6 @@ function doPost(e) {
     throw new Error("invalid token.");
   }
 
-  //My first Message!
-  //slackApp.chatPostMessage(e.parameter.channel_id, "Hi " + e.parameter.user_name + ".", {
-  ////slackApp.chatPostMessage("C0L1R638B", "Hi test_user.", {
-  //  username: bot_name,
-  //  icon_url: bot_icon
-  //});
-  
   var bot_line="";
   var mm2="";
   
