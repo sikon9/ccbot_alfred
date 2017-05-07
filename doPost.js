@@ -1,4 +1,4 @@
-var apikey = "4279655a6538354244417877325978576b4a79326151382f6e51574978437761516c647247396568735830";
+var apikey = "";
 
 var dialogueUrl_ztd = 'https://api.apigw.smt.docomo.ne.jp/dialogue/v1/dialogue?APIKEY='+apikey;
 var dialogueUrl_snr = 'https://api.apigw.smt.docomo.ne.jp/scenarioDialogue/v1/dialogue?APIKEY='+apikey;
@@ -7,7 +7,7 @@ var dialogueUrl_usr = 'https://api.apigw.smt.docomo.ne.jp/scenarioDialogue/v1/re
 var date = new Date();
 var formattedDate = Utilities.formatDate(date, "GMT", "yyyyMMddHHmmss");
 
-var sh_str = "https://docs.google.com/spreadsheets/d/12IunAGBN_6I_zYWiCI6-xogzVS3lp-bLD2DXiMt-Fo4/edit#gid=0&amp;vpid=A1";
+var sh_str = "";
 
 //Get properties.
 var prop =  PropertiesService.getScriptProperties().getProperties();

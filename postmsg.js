@@ -1,3 +1,5 @@
+//test
+
 var num_date = new Date();
 var num_yobi = num_date.getDay();
 
@@ -16,10 +18,8 @@ function postmsg() {
 
   //channel idを取得
   //general
-  var channelId = "C02HPM857";
+  var channelId = "";
 
-　//sikon9_bot
-  //var channelId = "C0L1Q1AF6";
 
   var bot_line="";
 
